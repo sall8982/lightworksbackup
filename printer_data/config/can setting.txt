@@ -101,13 +101,6 @@ CANbus 쿼리 도구는 메인보드의 CANbus UUID를 찾아냅니다.
 printer.cfg이 UUID는 파일에서 Klipper에게 통신에 CAN을 사용하도록 알리는 데 사용됩니다 . 줄을 제거하고 귀하의 머신에 해당하는 을 serial추가합니다 .canbus_uuid
 ======================================================================================================================================================================
 
-
-
-
-
-
-
-
 python3 ~/katapult/scripts/flashtool.py -i can0 -q
 
 Detected UUID: 99f04b11a77b, Application: Klipper
@@ -135,7 +128,7 @@ idm   쿼리  콘넥터 제장착 파란불
 
 python3 ~/katapult/scripts/flash_can.py -q
 
- Detected UUID: d34c83c11fe1, Application: Klipper
+Detected UUID: d34c83c11fe1, Application: Klipper
 
 
 
