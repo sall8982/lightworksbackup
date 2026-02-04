@@ -1,0 +1,17 @@
+[server]
+url = http://192.168.1.130:3334
+auth_token = ffe584e6d772730788a7
+
+[moonraker]
+host = 127.0.0.1
+port = 7125
+
+[webcam]
+disable_video_streaming = False
+
+[logging]
+path = /home/pi/printer_data/logs
+
+[misc]
+sentry_opt = in
+
